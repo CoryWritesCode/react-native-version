@@ -257,6 +257,7 @@ function version(program, projectPath) {
 							appPkg.version
 						);
 
+						log({ text: `New version code number = ${newVersionCodeNumber}`})
 						return "versionCode " + newVersionCodeNumber;
 					});
 				}
